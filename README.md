@@ -27,7 +27,8 @@ TODO
 
 ## <a name="tech-stack">Tech Stack</a>
 
-- MongoDB - NoSQL database
+- MongoDB Atlas - as a cloud MongoDB database service(Free tier)
+- Mongoose - as an Object Data Modeling (ODM) library for `MongoDB`.
 - Express - backend framework
 - React v19 - frontend library
 - Node.js - JS runtime

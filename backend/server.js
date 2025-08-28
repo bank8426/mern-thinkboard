@@ -1,11 +1,13 @@
 import express from "express";
-import notesRoute from "./routes/notesRoute.js";
-
-const PORT = 5001;
+import notesRoute from "./src/routes/notesRoute.js";
+import { connectDB } from "./src/config/db.js";
+import { PORT } from "./src/config/env.js";
 const app = express();
+
+connectDB();
 
 app.use("/api/notes", notesRoute);
 
-app.listen(PORT, () => {
+app.listen(PORT || 5001, () => {
   console.log("Server started on port : ", PORT);
 });
