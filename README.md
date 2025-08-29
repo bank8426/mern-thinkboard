@@ -42,6 +42,7 @@ Additional packages on backend
 
 - Mongoose - Object Data Modeling (ODM) library for `MongoDB`.
 - Upstash Redis - `Didn't use it for caching the data to display` in this project. But for the `Upstash Rate Limit` feature, which does `Rate limiting` by using `Redis` to track IP address and number of requests per minute(calculated using the Fixed Window algorithm).
+- cors - CORS middleware
 - dotenv - Environment variables loader from .env file which you can specify path where it should load from
 - nodemon - For hot reloading when in development
 

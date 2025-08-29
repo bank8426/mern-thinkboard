@@ -1,9 +1,16 @@
 import express from "express";
 import notesRoute from "./src/routes/notesRoute.js";
 import { connectDB } from "./src/config/db.js";
-import { PORT } from "./src/config/env.js";
+import { FRONTEND_URL, PORT } from "./src/config/env.js";
 import { rateLimiter } from "./src/middleware/rateLimiter.js";
+import cors from "cors";
 const app = express();
+
+app.use(
+  cors({
+    origin: [FRONTEND_URL],
+  })
+);
 
 app.use(rateLimiter);
 
