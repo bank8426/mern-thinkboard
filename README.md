@@ -27,12 +27,19 @@ TODO
 
 ## <a name="tech-stack">Tech Stack</a>
 
-- MongoDB Atlas - as a cloud MongoDB database service(Free tier)
-- Mongoose - as an Object Data Modeling (ODM) library for `MongoDB`.
-- Express - backend framework
-- React v19 - frontend library
+_MERN is stand for MongoDB, Express, React and Node.js._
+
+But anyway you still need library and stuff around it
+
+- MongoDB Atlas - Cloud MongoDB database service(Free tier)
+- Mongoose - Object Data Modeling (ODM) library for `MongoDB`.
+- Express - Backend framework
+- React v19 - Frontend library
 - Node.js - JS runtime
 - Upstash Redis - `Didn't use it for caching the data to display` in this project. But for the `Upstash Rate Limit` feature, which does `Rate limiting` by using `Redis` to track IP address and number of requests per minute(calculated using the Fixed Window algorithm).
+- React Router v7 (declarative mode) - Page router
+- Tailwind CSS v4 - CSS framework
+- daisyUI v5 - Collection of CSS class names as Tailwind plugin
 
 ## <a name="features">Features</a>
 
@@ -136,6 +143,8 @@ but if you want to you `import` keyword you need to chage project type to "Modul
 
 
 ```
+
+<!-- daisyUI -->
 
 ## <a name="note">Implementation Notes</a>
 
