@@ -32,6 +32,7 @@ TODO
 - Express - backend framework
 - React v19 - frontend library
 - Node.js - JS runtime
+- Upstash Redis - `Didn't use it for caching the data to display` in this project. But for the `Upstash Rate Limit` feature, which does `Rate limiting` by using `Redis` to track IP address and number of requests per minute(calculated using the Fixed Window algorithm).
 
 ## <a name="features">Features</a>
 
