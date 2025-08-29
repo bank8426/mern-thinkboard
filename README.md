@@ -54,11 +54,42 @@ git clone https://github.com/bank8426/mern-thinkboard.git
 cd mern-thinkboard
 ```
 
-### Installation
+### Running Backend
 
-Install the project dependencies using npm:
+#### Installation
+
+Go inside backend folder and install the project dependencies using npm:
 
 ```bash
+cd backend
+npm install
+```
+
+#### Set Up Environment Variables
+
+1. Create a new file named `.env.development.local` and copy the content inside `.env.example`
+2. Replace the placeholder values with your actual credentials
+
+```env
+TODO
+```
+
+#### Running the Project
+
+```bash
+npm run dev
+```
+
+Your server will run on [http://localhost:5001](http://localhost:5001/)
+
+### Running Frontend
+
+### Installation
+
+Go inside frontend folder and install the project dependencies using npm:
+
+```bash
+cd frontend
 npm install
 ```
 
@@ -108,6 +139,8 @@ but if you want to you `import` keyword you need to chage project type to "Modul
 ## <a name="note">Implementation Notes</a>
 
 TODO
+
+<!-- talk about path position for .env -->
 
 ## <a name="miss">Missing Features</a>
 
