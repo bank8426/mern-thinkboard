@@ -29,17 +29,29 @@ TODO
 
 _MERN is stand for MongoDB, Express, React and Node.js._
 
-But anyway you still need library and stuff around it
+Main stack
 
 - MongoDB Atlas - Cloud MongoDB database service(Free tier)
-- Mongoose - Object Data Modeling (ODM) library for `MongoDB`.
 - Express - Backend framework
 - React v19 - Frontend library
 - Node.js - JS runtime
+
+But anyway you still need library and stuff around it
+
+Additional packages on backend
+
+- Mongoose - Object Data Modeling (ODM) library for `MongoDB`.
 - Upstash Redis - `Didn't use it for caching the data to display` in this project. But for the `Upstash Rate Limit` feature, which does `Rate limiting` by using `Redis` to track IP address and number of requests per minute(calculated using the Fixed Window algorithm).
+- dotenv - Environment variables loader from .env file which you can specify path where it should load from
+- nodemon - For hot reloading when in development
+
+Additional packages on frontend
+
 - React Router v7 (declarative mode) - Page router
 - Tailwind CSS v4 - CSS framework
 - daisyUI v5 - Collection of CSS class names as Tailwind plugin
+- Lucide React - Icon library for React (Actually, they have multiple package to support different frontend that you use)
+- Axios - Promise based HTTP client for frontend
 
 ## <a name="features">Features</a>
 
