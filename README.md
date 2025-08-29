@@ -109,7 +109,7 @@ TODO
 npm run dev
 ```
 
-Your server will run on [http://localhost:3000](http://localhost:3000/)
+Your server will run on [http://localhost:5173](http://localhost:5173/)
 
 ## <a name="learn">What I learned</a>
 
