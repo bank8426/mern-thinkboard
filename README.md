@@ -64,6 +64,10 @@ Additional packages on frontend
 - Lucide React - Icon library for React (Actually, they have different package to support different frontend that you use)
 - Axios - Promise based HTTP client for frontend
 
+For deployment
+
+- render.com
+
 ## <a name="features">Features</a>
 
 TODO
@@ -169,11 +173,17 @@ but if you want to you `import` keyword you need to chage project type to "Modul
 
 <!-- daisyUI -->
 
+<!-- import.meta.env.MODE -->
+
 ## <a name="note">Implementation Notes</a>
 
 TODO
 
+<!-- get * in express v5 changed -->
+
 <!-- talk about path position for .env -->
+
+<!-- expensive rate limit on mpno repo and definition of rate limit - limit call from front to back -->
 
 ## <a name="miss">Missing Features</a>
 

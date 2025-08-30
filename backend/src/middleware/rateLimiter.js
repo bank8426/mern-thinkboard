@@ -4,7 +4,7 @@ export const rateLimiter = async (req, res, next) => {
   // Or use a userID, apiKey or ip address for individual limits.
   const identifier = "api";
   try {
-    const { success } = await ratelimit.limit(identifier, { ip: "ip-address" });
+    const { success } = await ratelimit.limit(identifier);
 
     if (!success) {
       return res.status(429).json({

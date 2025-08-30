@@ -1,7 +1,7 @@
 import { Ratelimit } from "@upstash/ratelimit"; // for deno: see above
 import { Redis } from "@upstash/redis";
 
-// Create a new ratelimiter, that allows 10 requests per 10 seconds
+// Create a new ratelimiter, that allows 5 requests per 20 seconds
 const ratelimit = new Ratelimit({
   redis: Redis.fromEnv(),
   limiter: Ratelimit.slidingWindow(5, "20 s"),
