@@ -25,6 +25,16 @@ TODO
 
 TODO
 
+Home (when no note)
+
+Home (when with note)
+
+create note
+
+note detail ( edit note)
+
+delete note (from home, from detail page )
+
 ## <a name="tech-stack">Tech Stack</a>
 
 _MERN is stand for MongoDB, Express, React and Node.js._
@@ -51,7 +61,7 @@ Additional packages on frontend
 - React Router v7 (declarative mode) - Page router
 - Tailwind CSS v4 - CSS framework
 - daisyUI v5 - Collection of CSS class names as Tailwind plugin
-- Lucide React - Icon library for React (Actually, they have multiple package to support different frontend that you use)
+- Lucide React - Icon library for React (Actually, they have different package to support different frontend that you use)
 - Axios - Promise based HTTP client for frontend
 
 ## <a name="features">Features</a>

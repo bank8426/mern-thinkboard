@@ -15,9 +15,6 @@ const CreateNotePage = () => {
     if (!title.trim() || !content.trim()) {
       return toast.error("All fields are required")
     }
-    console.log(title);
-    console.log(content);
-
     setLoading(true)
     try {
       await api.post(`/notes`, {
